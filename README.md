@@ -40,7 +40,8 @@ $ cd jaffle_shop
 $ dbt debug
 ```
 
-6. Load the CSVs with the demo data set. This materializes the CSVs as tables in your target schema. Note that a typical dbt project **does not require this step** since dbt assumes your raw data is already in your warehouse.
+6. Load the CSVs with the demo data set. This materializes the CSVs as tables in your target schema. 
+Note that a typical dbt project **does not require this step** since dbt assumes your raw data is already in your warehouse.
 ```bash
 $ dbt seed
 ```
